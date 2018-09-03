@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center{
+    width: 500px;
+    padding: 20px 0px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+.title{
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+.sign_up{
+    width: 200px;
+    font-size: 10pt;
+    font-family: arial, sans-serif;
+    text-align: center;
+    border: none;
+    border-bottom: solid 1px #bbbbbb;
+    padding: 9px 2px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+.sign_up:focus{
+    animation-name: anime;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+#submit_sign_up{
+    font-size: 11pt;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #000000;
+    font-family: arial, sans-serif;
+}
+@keyframes anime{
+    0%{
+        border-bottom: solid 1 px #000000;
+    }
+    100%{
+        border-bottom: solid 2px #000000;
+    }
+}
